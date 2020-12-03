@@ -3,6 +3,10 @@
 #include <time.h>
 #include <stdlib.h>
 
+chip8::chip8()
+{
+}
+
 void chip8::initialize()
 {
 	pc = 0x200;		// Program counter starts at 0x200
@@ -434,7 +438,8 @@ bool chip8::load_application(const char* filename)
 	printf("Loading: %s\n", filename);
 
 	// Open file
-	FILE* pFile = fopen(filename, "rb");
+	FILE* pFile;
+	fopen_s(&pFile, filename, "rb");
 	if (pFile == NULL)
 	{
 		fputs("File error", stderr);

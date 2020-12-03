@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\dev\chip8-interpreter\dependencies\freeglut-3.2.0\progs\demos\smooth_opengl3\smooth_opengl3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\dev\chip8-interpreter\dependencies\freeglut-3.2.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{AA5EBD89-93F3-3CBF-AB8F-E220AF74CB47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
