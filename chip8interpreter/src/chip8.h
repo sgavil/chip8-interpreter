@@ -19,6 +19,8 @@ public:
 private:
 	void fetch_code();
 	void decode_execute_code();
+	void clear_display();
+	bool load_application(const char* filename);
 
 	//To store current opcode which are 2bytes long (there are 35 opcodes)
 	unsigned short opcode;
